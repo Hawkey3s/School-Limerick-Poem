@@ -1,2 +1,3 @@
 Pisut - star rating did not record.
 Pisut - stars did not display correctly.
+Pisut - validate html
