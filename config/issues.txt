@@ -3,3 +3,4 @@ Pisut - stars did not display correctly.
 Pisut - validate html
 Pisut - check if the data is not empty before calling add method.
 Pisut - correct last line of poem 1 in readme.txt
+Piust - need some fix on readme.txt
