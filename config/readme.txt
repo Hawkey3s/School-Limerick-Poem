@@ -33,8 +33,7 @@ Who rarely opened his mouth.
 And when he did
 
 Everyone hid
-And cried
-‘Good lord, close your mouth!
+And cried ‘Good lord, close your mouth!
 
 
 
