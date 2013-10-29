@@ -67,10 +67,14 @@ function getFeaturedPoem() {
     $query = "SELECT * FROM featuredpoem";
     $result = mysql_query($query);
     if (mysql_num_rows($result) == 0) {
-        $getPoem = "SELECT * FROM poems order by RAND() LIMIT 1";
+        $getPoem = "SELECT * FROM poems order by RAND()";
         $result2 = mysql_query($getPoem);
-        $detail = mysql_fetch_array($result2);
-
+        if(mysql_num_rows($result2) == 1){
+        $detail = mysql_fetch_assoc($result2);
+        }
+        else{
+            $detail = mysql_fetch_array($result2);
+        }
         $title = $detail['Title'];
         $author = $detail['Author'];
         $poem = $detail['Poem'];
