@@ -1,3 +1,4 @@
 Pisut - star rating did not record.
 Pisut - stars did not display correctly.
 Pisut - validate html
+Pisut - check if the data is not empty before calling add method.

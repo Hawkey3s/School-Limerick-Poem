@@ -8,8 +8,10 @@ function poemController() {
         $_SESSION["view"] = "poemview";
     } else if (isset($_POST["xx"]) && $_POST["xx"] == "addPoem") {
         //Add a new poem
-        addNewPoem($_POST["title"], $_POST["author"], $_POST["poem"]);
-        updateAllPoems();
+        if (isset($_POST["title"]) && isset($_POST["author"]) && isset($_POST["poem"])) {
+            addNewPoem($_POST["title"], $_POST["author"], $_POST["poem"]);
+            updateAllPoems();
+        }
         $_SESSION['view'] = "featuredpoem";
     } else if (isset($_GET["xx"]) && $_GET["xx"] == "randomPoem") {
         $_SESSION["view"] = "randompoemview";
