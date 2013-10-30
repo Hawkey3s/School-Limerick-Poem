@@ -29,7 +29,6 @@
             ?></td></tr>
 </table>
 
-
 <br />
 
 <span id="Status">Rate This Poem</span>

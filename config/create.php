@@ -22,8 +22,11 @@ if (!$createdb) {
     if (!$createtable || !$createtable2) {
         die('Could not create table: ' . mysql_error());
     }
-    echo "Tables have been created!";
-    
+    else{
+        $insertpoem = "INSERT INTO `poems` (`Title`, `Author`, `Poem`, `Rating`, `RatingCount`, `RatingAverage`, `Date`) VALUES ('My Foolish Dog', 'Kathlene Bouzek', 'My dog is quite hip\r\nExcept when he takes a dip\r\nHe looks like a fool\r\nwhen he jumps in the pool\r\nand reminds me of a sinking ship', 3, 1, 3, '2013-10-29 08:52:45')";
+        mysql_query($insertpoem);
+        echo "Tables have been created!";
+    }       
 }
 mysql_close($con);
 ?>

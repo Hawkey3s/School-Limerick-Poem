@@ -4,7 +4,8 @@
 2. make necessary changes in config/create.php and make sure that there's no database name "looney" exist in your database.
 
 
-3. run localhost/config/create.php, you should get "Tables have been created!".
+3. run localhost/config/create.php, you should get "Tables have been created!", there'll be one initial poem added to the table.
+the rating for that will be 3.
 
 
 4. now that the database and tables have been created, 
