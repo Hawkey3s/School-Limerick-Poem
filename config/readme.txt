@@ -17,6 +17,7 @@ the rating for that will be 3.
 
 
 *Important, when adding new poem, please make sure to have no space after the last word of each line or else it will fail.
+I also make title a primary key in database, so to add new poem, the title must not be the same.
 
 
 
